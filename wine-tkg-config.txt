@@ -1,9 +1,9 @@
-# Last wine-tkg-staging-ntsync-git configuration - Sun Jun 14 09:12:36 AM UTC 2026 :
+# Last wine-tkg-staging-ntsync-git configuration - Tue Jun 30 06:48:50 PM UTC 2026 :
 
 Local cfg files used
 
-Wine (plain) version: 11.11.r0.gf6c044e1890
-Using wine-staging patchset (version 11.11.r0.g4d000a90)
+Wine (plain) version: 11.12.r0.g996020f410e
+Using wine-staging patchset (version 11.12.r0.gbc50fb14)
 
 Not using vkd3d native library for d3d12 translation (allows using vkd3d-proton)
 
@@ -27,12 +27,13 @@ proton_battleye.patch -- ( Add support for Proton's Battleye runtime )
 Applied hotfix Return_nt_filename_and_resolve_DOS_drive_path.mypatch
 Applied hotfix a608ef1.mypatch
 Applied hotfix nostale_mouse_fix.mypatch
-Applied hotfix opencl-fixup.mypatch
 Applied your own patch add-custom-overrides.mypatch
 Applied your own patch disable-hidraw-and-evdev.mypatch
 Applied your own patch disable-winedebug-by-default.mypatch
+Applied your own patch fix-wow64-mode.mypatch
 Applied your own patch hags.mypatch
 Applied your own patch mui.mypatch
 Applied your own patch notify-about-ntsync.mypatch
+Applied your own patch use-wayland-by-default.mypatch
 
 wine-tkg-staging.patch -- ( Please don't report bugs about this wine build on winehq.org and use https://github.com/Frogging-Family/wine-tkg-git/issues instead. )
